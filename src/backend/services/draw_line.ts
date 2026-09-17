@@ -30,7 +30,6 @@ export function drawLine(iL: Line): void {
             increment++;
         }
     }
-
 }
 
 
