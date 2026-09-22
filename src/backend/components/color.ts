@@ -12,6 +12,14 @@ export class Color {
         this.transparency = iT;
     }
 
+
+    public setColor(iR: number, iG: number, iB: number, iT: number): void {
+        this.red = iR;
+        this.green = iG;
+        this.blue = iB;
+        this.transparency = iT;
+    }
+
     public getRed(): number {
         return this.red;
     }
