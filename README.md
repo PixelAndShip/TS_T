@@ -1,15 +1,65 @@
-# TS_T (TypeScript Terraform)
+# TS_T (TypeScript Terrain)
 
-
+> This is an open source solo project, in which a custom graphics calculation model is developed. <br>
+> The main goals for the project are to: <br>
+> 1.Learn basic typescript. <br>
+> 2.Learn basic graphics calculations.
 
 ## Project Structure
 
 ```
+├── dist
+│   ├── backend
+│   │   ├── components
+│   │   │   ├── color.js
+│   │   │   ├── index.js
+│   │   │   ├── line.js
+│   │   │   ├── pixel.js
+│   │   │   └── triangle.js
+│   │   ├── index.js
+│   │   └── services
+│   │       ├── draw_line.js
+│   │       ├── draw_pixel.js
+│   │       ├── draw_triangle.js
+│   │       └── index.js
+│   ├── components
+│   │   ├── person.js
+│   │   └── student.js
+│   └── main.js
+├── node_modules
+│   └── ...
+├── public
+│   └── ...
+├── src
+│   ├── backend
+│   │   ├── components
+│   │   │   ├── color.ts
+│   │   │   ├── index.ts
+│   │   │   ├── line.ts
+│   │   │   ├── pixel.ts
+│   │   │   └── triangle.ts
+│   │   ├── gif.js.d.ts
+│   │   ├── index.ts
+│   │   └── services
+│   │       ├── draw_line.ts
+│   │       ├── draw_pixel.ts
+│   │       ├── draw_triangle.ts
+│   │       └── index.ts
+│   ├── frontend
+│   └── main.ts
+└── tsconfig.json
+├── index.html
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README.md
+└── tsconfig.json
 
 ```
 
 ## How It Works
 
+```
 
 
 ```
