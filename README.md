@@ -60,10 +60,17 @@
 ## How It Works
 
 ```
+The structural model is as follows:
+Pixel - holds x and y coordinate attributes and a Color instance.
+Line - holds 2 pixel instances.
+Triangle - holds 3 pixel instances.
 
-
+Service functions:
+drawPixel(x,y,Color) - draws a 1x1 rectangle in index.html canvas.
+clearCanvas() - clears the index.html canvas.
+drawLine(pixel1, pixel2) - calls drawPixel() starting from pixel1 coordinates and ending on given pixel2 coordinates. Applies a linear color gradient based on the 2 given Pixel colors.
+drawTriangle(pixel1, pixel2, pixel3) - draws lines starting from pixel1 to each point along the line from pixel2 and pixel3.
 ```
-
 ## License
 
 MIT License
